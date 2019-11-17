@@ -1,0 +1,181 @@
+body {
+	font-family: 'Questrial', sans-serif;
+}
+.first {
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url(/img/biriyani-chicken-cooked-1624487.jpg) no-repeat ;
+	-webkit-background-size: cover;
+	background-size: cover;
+	height: 100vh;
+	position: relative;
+	margin: auto;
+	
+}
+.second {
+	color:white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.second h1 {
+	font-size: 2.5em;
+	text-align: center;
+	word-spacing: 2px;
+	text-transform: capitalize;
+	
+	
+
+}
+.second p{
+	text-align: center;
+	font-size: 1.5em;
+	color: #fdfbfb;
+}
+.form_code .post_code{
+	display: block;
+	border-radius: 2rem;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	padding: .7rem;
+	border: none;
+	outline: none;
+
+}
+.form_code{
+	text-align: center;
+}
+.form_code button{
+	margin-left: auto;
+	margin-right: auto;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	border-radius: .5rem;
+	display: inline-block;
+	text-align: center;
+	background-color: #e9910d;
+	color: white;
+	padding: .3rem;
+	margin-top: 1rem;
+	
+}
+span{
+	margin-left: 4rem; 
+	display: inline-block;
+	margin-bottom: .4rem;
+}
+.third{
+	/* width: 90%;
+	height: auto; */
+	/* margin-left: auto;
+	margin-right: auto; */
+	/* margin-top: .3rem; */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+.fourth{
+	width: 300px;
+	/* float: left; */
+	margin: 8px;
+	display: inline-block;
+	
+	
+}
+.fourth :first-of-type{
+	margin-left: 0;
+}
+@media screen and (max-width: 700px){
+	.fourth{
+		width: 100%;
+		float: none;
+	}
+	
+
+}
+.logo{
+	margin-left: 2rem;
+	margin-top: 3rem;
+	 transform-origin: 0 0;
+  transform: rotate(90deg);
+}
+.semi{
+	transform-origin: 0 0;
+  transform: rotate(90deg);
+}
+.login{
+	margin-left: 600px;
+	margin-right: auto;
+	margin-top: 0px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	border-radius: .5rem;
+	display: inline-block;
+	text-align: center;
+	background-color: #e9910d;
+	color: white;
+	padding: .3rem;
+	margin-top: 1rem;
+	width: 4rem;
+	text-size-adjust: .2rem;
+	
+}
+/*navbar css starts*/
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  padding: 0px;
+  margin: 0px;
+}
+
+.topnav a {
+	margin: 5px;
+	float: right;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.topnav a:hover {
+	background-color: #ddd;
+	color: black;
+}
+
+.topnav a.active {
+	background-color: #ff9800;
+	color: white;
+}
+/* navbar css ends */
+/* footer css */
+.foot{
+	background:#191927;
+	color: #000000;
+	height: 200px;
+	position: relative;
+}
+.foot .footer-content{
+	/* border: 1px solid red; */
+	height: 175px;
+	text-align: center;
+	align-items: center;
+}
+.foot .footer-button{
+	background: #191927;
+	color: #f7f0f0;
+	height: 20px;
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	bottom: 0%;
+	left: 0%;
+	padding-top: 20px;
+}
+/* footer ends */
+.brand-logo{
+	float: right; 
+	position: absolute; 
+	color: #ff9800; 
+	font-weight: bold; 
+	font-size: 25px
+}
